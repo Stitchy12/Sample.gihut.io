@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background: url(transparent.webp);
+    background-size: cover;
+}
+
+h2 a{
+    color: #333;
+    text-decoration: none;
+}
+
+h2 a:hover
+{
+    color: #ff9900;
+}
+
+h4 {
+    color: #555555;
+}
+
+.back-button a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-button a:hover
+{
+    color: #ff9900;
+    transform: scale(1.1);
+
+}
+
+audio {
+    margin-top: 20px;
+    width: 50%;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+pre {
+    white-space: pre-wrap;
+    text-align: center;
+    color: #333;
+}
+
+.button-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.back-button
+{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.back-button:hover
+{
+    transform: scale(1.05);
+}

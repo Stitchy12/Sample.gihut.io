@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: url(background.png);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease-in-out;
+}
+a:hover
+{
+    color: #ff9900;
+    transform: scale(1.1);
+}
+
+.img {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.button-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.custom-button
+{
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.custom-button:hover
+{
+    background-color: rgba(0, 123, 255, 0.1);
+    transform: scale(1.05);
+}
+
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.center img
+{
+    max-height: 300px;
+    transition: transform 0.3s;
+}
+
+.center img:hover
+{
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px)
+{
+    .center
+    {
+        flex-direction: row;
+    }
+
+    .src    
+    {
+        max-width: 10%;
+        height: auto;
+    }
+}
